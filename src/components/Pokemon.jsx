@@ -1,4 +1,4 @@
 // Destructure pokemon props here :)
-export const Pokemon = () => {
-  return <div>Pokemon</div>;
+export const Pokemon = (props) => {
+  return <div><strong>Pokemon Name:</strong> {props.name}</div>;
 };
