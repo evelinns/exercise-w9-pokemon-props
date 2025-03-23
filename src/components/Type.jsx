@@ -1,4 +1,3 @@
-// Destructure pokemon types props here :)
 export const Type = (props) => {
   return (
     <div>

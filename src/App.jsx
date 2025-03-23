@@ -12,6 +12,7 @@ Feel free to create more components, such as header/footer,
 or why not include some more data from the array? */
 
 import PokemonsData from './data.json';
+import { Hero } from "./components/Hero";
 import { Pokemon } from './components/Pokemon';
 import { Type } from './components/Type';
 
@@ -22,6 +23,7 @@ export const App = () => {
 
   return (
     <div className="App">
+      <Hero />
       <h1>Pokemon List</h1>
       <ul>
       {pokemonObject.map((pokemon) => (
@@ -34,42 +36,3 @@ export const App = () => {
     </div>
   );
 };
-
-
-/* 
-
-
-  return (
-    <div className="App">
-      <h1>Pokemon List</h1>
-      <ul>
-        {pokemonObject.map((pokemon) => (
-          <li key={pokemon.name}>
-            <Pokemon name={pokemon.name} />
-            <Type type={pokemon.types} />
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
-
-
-
-const people = [
-  { name: "Nina", title: "Ms" },
-  { name: "Stina", title: "Mrs" },
-  { name: "Lina", title: "Misss" }
-]
-
-const App = () => {
-  return (
-    <div>
-      (people.map(person => {
-        return <People key={person.name} name={person.name} title={person.title} />  
-      }))
-    </div>
-  )
-}
-
-*/
