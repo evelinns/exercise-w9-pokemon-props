@@ -6,7 +6,7 @@
 
 # React Pokemon Props Exercise
 
-In this week’s team session you will practice react basics and you will work on applying the concepts that we have learned throughout the week. 
+In this week’s team session you will practice react basics and you will work on applying the concepts that we have learned throughout the week.
 
 ### Instructions:
 

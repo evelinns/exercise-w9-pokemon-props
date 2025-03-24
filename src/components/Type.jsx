@@ -1,7 +1,7 @@
 export const Type = (props) => {
   return (
     <div>
-      <strong>Pokemon Type: {" "}</strong> 
+      <strong>Type: {" "}</strong> 
       {props.type.map((t, index) => (
         <span key={index}>
           {t}
